@@ -9,7 +9,7 @@ import { groups, meta } from "./config/tags.js";
 const base = standaloneDefinition();
 
 export default base.extend({
-  requires: "^0.1.0",
+  requires: "^0.1.1", // standaloneDefinition()
   tags: { groups, meta },
   camera: { defaultAlign: ["center", "center"] },
   baseState: { camera: { fit: true } }, // the whole diagram first

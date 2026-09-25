@@ -1,0 +1,11 @@
+# New diagram-webkit (and other) versions arrive as PRs; merging one deploys.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
